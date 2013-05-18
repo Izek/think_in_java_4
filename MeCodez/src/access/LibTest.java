@@ -11,4 +11,4 @@ public class LibTest {
 	}
 } /*
  * Output: net.mindview.simple.Vector net.mindview.simple.List
- */// :~
+ */// :~ 

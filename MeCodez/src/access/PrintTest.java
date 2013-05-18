@@ -1,7 +1,7 @@
 package access;
 
 //: access/PrintTest.java 
-//Uses the static printing methods in Print.java. 
+// Uses the static printing methods in Print.java. 
 import static net.mindview.util.Print.*;
 
 public class PrintTest {
@@ -13,4 +13,4 @@ public class PrintTest {
 	}
 } /*
  * Output: Available from now on! 100 100 3.14159 Access Control 151 
- */// :~
+ */// :~ 
