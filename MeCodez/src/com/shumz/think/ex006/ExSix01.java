@@ -11,6 +11,7 @@ public class ExSix01 {
 
 	public static void main(String[] args) {
 		ExSix01 ex1 = new ExSix01();
+		ex1.getClass();
 	}
 
 }

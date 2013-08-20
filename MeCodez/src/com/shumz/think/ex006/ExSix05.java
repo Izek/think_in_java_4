@@ -22,7 +22,10 @@ class B {
 }
 
 class C extends A {
-	C() {
-		B c1 = new B();
-	}
+	B b;
+	// C() {
+	// System.out.println("C()");
+	// B c1 = new B();
+	//
+	// }
 }

@@ -17,12 +17,17 @@ class Drawing extends Art {
 }
 
 public class Cartoon extends Drawing {
-//	public Cartoon() {
-//		print("Cartoon constructor");
-//	}
+	public Cartoon() {
+		print("Cartoon constructor");
+	}
 
 	public static void main(String[] args) {
 		Cartoon x = new Cartoon();
+		try {
+			x.finalize();
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
 	}
 } /*
 * Output: Art constructor Drawing constructor Cartoon constructor

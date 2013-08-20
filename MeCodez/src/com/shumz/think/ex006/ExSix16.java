@@ -3,10 +3,10 @@ package com.shumz.think.ex006;
 public class ExSix16 {
 
 	public static void main(String[] args) {
-		Frog f1 = new Frog("Froggy ");
+		Frog f1 = new Frog("Froggy");
 		Amphibian.breatheInWater(f1);
 		Amphibian.breatheInAtmosphere(f1);
-		
+
 		System.out.println(f1.toString());
 	}
 
@@ -56,4 +56,5 @@ class Frog extends Amphibian {
 	public String toString() {
 		return name + ": " + super.toString();
 	}
+
 }

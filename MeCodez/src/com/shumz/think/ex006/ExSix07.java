@@ -11,6 +11,8 @@ public class ExSix07 {
 class Amod {
 	Amod(String s) {
 		System.out.println("Amod()");
+		System.out.println(s);
+		
 	}
 }
 
