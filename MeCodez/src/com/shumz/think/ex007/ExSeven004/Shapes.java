@@ -4,6 +4,7 @@ package com.shumz.think.ex007.ExSeven004;
 // Polymorphism in Java. 
 
 public class Shapes {
+	@SuppressWarnings("unused")
 	private static RandomShapeGenerator gen = new RandomShapeGenerator();
 
 	public static void main(String[] args) {
