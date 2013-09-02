@@ -43,8 +43,11 @@ class PortableLunch extends Lunch {
 }
 
 class Sandwich implements FastFood {
+	@SuppressWarnings("unused")
 	private Bread b = new Bread();
+	@SuppressWarnings("unused")
 	private Cheese c = new Cheese();
+	@SuppressWarnings("unused")
 	private Lettuce l = new Lettuce();
 
 	public Sandwich() {
